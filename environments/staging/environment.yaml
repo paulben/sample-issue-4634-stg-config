@@ -4,7 +4,11 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  maven:
+    groupId: net.wasdev.wlp.sample
+    artifactId: ferret
+    version: "1.2"
+    type: war
 
   # configure endpoints
   endpoints: public
